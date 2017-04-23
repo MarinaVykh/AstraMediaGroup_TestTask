@@ -1,22 +1,18 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  height: 100%;
+  width: 100%;
   margin: 0 auto;
   background-color: #fff;
   font-family: 'Aller', sans-serif;
-  font-size: 12px;
 }
 
 a {
   text-decoration: none;
   color: #000000;
 }
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-

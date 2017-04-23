@@ -1,0 +1,76 @@
+.main-nav__list {
+  display: flex;
+}
+
+.main-nav__item {
+  display: inline-block;
+  width: 376px;
+}
+
+.main-nav__item-wrapper-flipper {
+  perspective: 1000px;
+}
+
+.main-nav__item-wrapper-flipper:hover .main-nav__item-flipper,
+.main-nav__item-wrapper-flipper.hover .main-nav__item-flipper {
+  transform: rotateY(180deg);
+}
+
+.main-nav__item-wrapper-flipper,
+.main-nav__item-flipper-front,
+.main-nav__item-flipper-back {
+  width: 100%;
+  height: 100vh;
+}
+
+.main-nav__item-flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.main-nav__item-flipper-front,
+.main-nav__item-flipper-back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-nav__item-flipper-front {
+  z-index: 2;
+}
+
+.main-nav__item-flipper-front--img1 {
+  background: url('../img/bg-item1.jpg') no-repeat 0 center;
+  background-size: cover;
+}
+
+.main-nav__item-flipper-front--img2 {
+  background: url('../img/bg-item2.jpg') no-repeat 0 center;
+  background-size: cover;
+}
+
+.main-nav__item-flipper-front--img3 {
+  background: url('../img/bg-item3.jpg') no-repeat 0 center;
+  background-size: cover;
+}
+
+.main-nav__item-flipper-front--img4 {
+  background: url('../img/bg-item4.jpg') no-repeat 0 center;
+  background-size: cover;
+}
+
+.main-nav__item-flipper-front--img5 {
+  background: url('../img/bg-item5.jpg') no-repeat 0 center;
+  background-size: cover;
+}
+
+.main-nav__item-flipper-back {
+  transform: rotateY(180deg);
+  background-color: gray;
+}
+
+.main-nav__item-menu {
+  display: inline-block;
+}
