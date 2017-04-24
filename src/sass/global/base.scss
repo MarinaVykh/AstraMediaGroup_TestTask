@@ -5,14 +5,16 @@
 }
 
 body {
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
+  //width: 100%;
+  //width: 1920px;
+  //margin: 0 auto;
+
   background-color: #fff;
-  font-family: 'Aller', sans-serif;
+  font-family: 'roboto_condensedregular', sans-serif;
+  text-transform: uppercase;
+  //overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
-  color: #000000;
 }
