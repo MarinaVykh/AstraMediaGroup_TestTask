@@ -1,1 +1,0 @@
-#AstraMediaGroup_TestTask
