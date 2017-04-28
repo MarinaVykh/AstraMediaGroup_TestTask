@@ -37,20 +37,21 @@ function request() {
     } else {
       var content = xhr.responseText;
     }
+
+    alert(extractContent(content));
+
   });
   xhr.send();
 }
 
 
-function extractContent() {
-
-  var htmlString = content;
+function extractContent(a) {
+  var htmlString = a;
 
   var beginningContent = htmlString.indexOf("//content1Start") + "//content1Start".length;
   var endContent = htmlString.indexOf("//content1End");
   var extractedContent = htmlString.substr(beginningContent, endContent - beginningContent).trim();
 
-
-  alert(extractedContent);
+  return extractedContent;
 }
 
