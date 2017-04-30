@@ -183,7 +183,7 @@
 
 @media (max-width: 1640px) {
   .main-nav__item-name {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .main-nav__item-flipper-back {
@@ -202,12 +202,11 @@
   .page-footer {
     height: 200px;
   }
-
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1350px) {
   .main-nav__item-name {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .main-nav__item-flipper-back {
@@ -222,9 +221,20 @@
   .main-nav__item-menu a {
     font-size: 10px;
   }
+}
+
+@media (max-width: 1150px) {
+  .main-nav__item-name {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 960px) {
+  .main-nav__item-name {
+    font-size: 12px;
+  }
 
   .page-footer {
     height: 100px;
   }
-
 }
