@@ -63,7 +63,11 @@ var links = document.getElementsByClassName('main-nav__item-menu');
 for (var i = 0; i < links.length; i++) {
   links[i].addEventListener('click', function (event) {
 
-    var flippers = document.getElementsByClassName('main-nav__item-wrapper-flipper');
+
+
+
+
+    var flippers = document.getElementsByClassName('main-nav__item');
     for (var i = 0; i < links.length; i++) {
       var doesContainElement = flippers[i].contains(event.target);
       if (doesContainElement == false) {
