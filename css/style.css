@@ -419,7 +419,7 @@ a {
 .main-nav__item-name {
   position: absolute;
   z-index: 3;
-  top: 35px;
+  top: 45px;
   right: 20px;
   left: 20px;
   height: 122px;
@@ -503,7 +503,7 @@ a {
 
 .main-nav__item-flipper-back {
   transform: rotateY(-180deg);
-  padding-top: 180px;
+  padding-top: 190px;
   background-color: #5b5b5b; }
 
 .main-nav__item-menu {
@@ -563,16 +563,16 @@ a {
   .main-nav__item-name {
     font-size: 18px; }
   .main-nav__item-flipper-back {
-    padding-top: 160px; }
+    padding-top: 180px; }
   .main-nav__item-menu {
     margin: 0 0 5px 0;
     padding: 0 35px 0 35px; }
   .main-nav__item-menu a {
     font-size: 10px; }
   .page-footer {
-    height: 120px; }
+    height: 150px; }
   .copyright {
-    padding-top: 5px; } }
+    padding-top: 10px; } }
 
 @media (max-width: 1350px) {
   .main-nav__item-name {
@@ -590,5 +590,15 @@ a {
     font-size: 12px; }
   .page-footer {
     height: 100px; } }
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .main-nav__item-menu {
+    margin: 0 0 10px 0; }
+  .main-nav__item-menu a {
+    font-size: 12px; }
+  .page-footer {
+    height: 150px; }
+  .copyright {
+    padding-top: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
