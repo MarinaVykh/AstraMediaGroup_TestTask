@@ -573,8 +573,6 @@ a {
 @media (max-width: 1350px) {
   .main-nav__item-name {
     font-size: 16px; }
-  .main-nav__item-flipper-back {
-    padding-top: 180px; }
   .main-nav__item-menu {
     margin: 0 0 2px 0;
     padding: 0 35px 0 35px; } }
