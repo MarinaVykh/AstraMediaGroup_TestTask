@@ -13,12 +13,19 @@
 
 @media (max-width: 1660px) {
   .page-footer {
-    height: 120px;
+    height: 150px;
   }
 }
 
 @media (max-width: 960px) {
   .page-footer {
     height: 100px;
+  }
+}
+
+@media (min-resolution: 144dpi),
+(min-resolution: 1.5dppx) {
+  .page-footer {
+    height: 150px;
   }
 }

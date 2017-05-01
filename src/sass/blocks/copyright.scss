@@ -6,6 +6,13 @@
 
 @media (max-width: 1660px) {
   .copyright {
-    padding-top: 5px;
+    padding-top: 10px;
+  }
+}
+
+@media (min-resolution: 144dpi),
+(min-resolution: 1.5dppx) {
+  .copyright {
+    padding-top: 10px;
   }
 }
