@@ -55,18 +55,15 @@
 
 .main-nav__item-wrapper-flipper {
   perspective: 1000px;
+  transform-style: preserve-3d;
 }
 
-.main-nav__item-wrapper-flipper:hover .main-nav__item-flipper,
-.main-nav__item-wrapper-flipper.hover .main-nav__item-flipper {
+.main-nav__item-wrapper-flipper:hover .main-nav__item-flipper-back {
+  transform: rotateY(0deg);
+}
+
+.main-nav__item-wrapper-flipper:hover .main-nav__item-flipper-front {
   transform: rotateY(180deg);
-}
-
-.main-nav__item-name {
-  .main-nav__item-wrapper-flipper:hover .main-nav__item-flipper,
-  .main-nav__item-wrapper-flipper.hover .main-nav__item-flipper {
-    transform: rotateY(180deg);
-  }
 }
 
 .main-nav__item-wrapper-flipper,
@@ -85,6 +82,8 @@
 .main-nav__item-flipper-front,
 .main-nav__item-flipper-back {
   backface-visibility: hidden;
+  transition: 0.6s;
+  transform-style: preserve-3d;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -94,6 +93,7 @@
 
 .main-nav__item-flipper-front {
   z-index: 2;
+  transform: rotateY(0deg);
 }
 
 .main-nav__item-flipper-front--img1 {
@@ -122,14 +122,14 @@
 }
 
 .main-nav__item-flipper-back {
-  padding-top: 200px;
-  transform: rotateY(180deg);
+  transform: rotateY(-180deg);
+  padding-top: 190px;
   background-color: #5b5b5b;
 }
 
 .main-nav__item-menu {
   display: block;
-  margin: 0 0 20px 0;
+  margin: 0 0 18px 0;
   padding: 0 35px 0 35px;
 }
 
