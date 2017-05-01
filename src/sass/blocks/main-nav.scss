@@ -23,7 +23,7 @@
 .main-nav__item-name {
   position: absolute;
   z-index: 3;
-  top: 45px;
+  top: 35px;
   right: 20px;
   left: 20px;
   height: 122px;
@@ -142,13 +142,13 @@
   }
 }
 
-@media (max-width: 1640px) {
+@media (max-width: 1660px) {
   .main-nav__item-name {
     font-size: 18px;
   }
 
   .main-nav__item-flipper-back {
-    padding-top: 180px;
+    padding-top: 160px;
   }
 
   .main-nav__item-menu {
