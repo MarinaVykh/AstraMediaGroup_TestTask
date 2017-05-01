@@ -541,20 +541,25 @@ a {
   height: 67px;
   text-align: center; }
 
+.copyright {
+  padding-top: 40px;
+  font-size: 13px;
+  color: #939393; }
+
 .mail {
   padding-right: 95px;
   font-size: 24px;
   line-height: 18px;
   color: #fff; }
 
-.copyright {
-  padding-top: 40px;
-  font-size: 13px;
-  color: #939393; }
+#content {
+  display: none;
+  width: 80%;
+  margin: 25px; }
 
 @media (max-width: 1640px) {
   .main-nav__item-name {
-    font-size: 20px; }
+    font-size: 18px; }
   .main-nav__item-flipper-back {
     padding-top: 180px; }
   .main-nav__item-menu {
