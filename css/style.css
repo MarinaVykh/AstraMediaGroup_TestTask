@@ -503,7 +503,7 @@ a {
 
 .main-nav__item-flipper-back {
   transform: rotateY(-180deg);
-  padding-top: 190px;
+  padding-top: 180px;
   background-color: #5b5b5b; }
 
 .main-nav__item-menu {
@@ -568,7 +568,11 @@ a {
     margin: 0 0 5px 0;
     padding: 0 35px 0 35px; }
   .main-nav__item-menu a {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .page-footer {
+    height: 120px; }
+  .copyright {
+    padding-top: 5px; } }
 
 @media (max-width: 1350px) {
   .main-nav__item-name {
@@ -586,11 +590,5 @@ a {
     font-size: 12px; }
   .page-footer {
     height: 100px; } }
-
-@media (max-width: 1640px) {
-  .page-footer {
-    height: 160px; }
-  .copyright {
-    padding-top: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
