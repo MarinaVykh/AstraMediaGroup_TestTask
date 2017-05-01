@@ -6,7 +6,7 @@
   <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
   <title>Merpasa</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
 
 </head>
 
@@ -19,7 +19,7 @@
         <a href="content1.html"></a>
 
         <span><a href="#" class="main-nav__item-name">Упаковочное оборудование</a></span>
-        <div class="main-nav__item-wrapper-flipper" ontouchstart="this.classList.toggle('hover');">
+        <div class="main-nav__item-wrapper-flipper" data-ontouchstart="this.classList.toggle('hover');">
           <div class="main-nav__item-flipper">
             <div class="main-nav__item-flipper-front  main-nav__item-flipper-front--img1"></div>
             <div class="main-nav__item-flipper-back">
@@ -48,7 +48,7 @@
         <a href="content2.html"></a>
 
         <span><a href="#" class="main-nav__item-name  main-nav__item-name--color2">Упаковочные материалы</a></span>
-        <div class="main-nav__item-wrapper-flipper" ontouchstart="this.classList.toggle('hover');">
+        <div class="main-nav__item-wrapper-flipper" data-ontouchstart="this.classList.toggle('hover');">
           <div class="main-nav__item-flipper">
             <div class="main-nav__item-flipper-front  main-nav__item-flipper-front--img2"></div>
             <div class="main-nav__item-flipper-back">
@@ -69,12 +69,13 @@
           </div>
         </div>
       </li>
-      <li class="main-nav__item" >
+      <li class="main-nav__item">
 
         <a href="content3.html"></a>
 
-        <span><a href="#" class="main-nav__item-name  main-nav__item-name--color3">Автоматическое оборудование</a></span>
-        <div class="main-nav__item-wrapper-flipper" ontouchstart="this.classList.toggle('hover');">
+        <span><a href="#"
+                 class="main-nav__item-name  main-nav__item-name--color3">Автоматическое оборудование</a></span>
+        <div class="main-nav__item-wrapper-flipper" data-ontouchstart="this.classList.toggle('hover');">
           <div class="main-nav__item-flipper">
             <div class="main-nav__item-flipper-front  main-nav__item-flipper-front--img3"></div>
             <div class="main-nav__item-flipper-back">
@@ -95,8 +96,9 @@
 
         <a href="content4.html"></a>
 
-        <span><a href="#" class="main-nav__item-name  main-nav__item-name--color4">Технологическое оборудование</a></span>
-        <div class="main-nav__item-wrapper-flipper" ontouchstart="this.classList.toggle('hover');">
+        <span><a href="#"
+                 class="main-nav__item-name  main-nav__item-name--color4">Технологическое оборудование</a></span>
+        <div class="main-nav__item-wrapper-flipper" data-ontouchstart="this.classList.toggle('hover');">
           <div class="main-nav__item-flipper">
             <div class="main-nav__item-flipper-front  main-nav__item-flipper-front--img4"></div>
             <div class="main-nav__item-flipper-back">
@@ -116,7 +118,7 @@
         <a href="content5.html"></a>
 
         <a href="#" class="main-nav__item-name  main-nav__item-name--color5">Техническое обслуживание</a>
-        <div class="main-nav__item-wrapper-flipper" ontouchstart="this.classList.toggle('hover');">
+        <div class="main-nav__item-wrapper-flipper" data-ontouchstart="this.classList.toggle('hover');">
           <div class="main-nav__item-flipper">
             <div class="main-nav__item-flipper-front  main-nav__item-flipper-front--img5"></div>
             <div class="main-nav__item-flipper-back"></div>
@@ -124,7 +126,7 @@
         </div>
       </li>
 
-      <div id="content"></div>
+      <li id="content"></li>
 
     </ul>
   </nav>

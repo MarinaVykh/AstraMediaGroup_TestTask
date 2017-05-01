@@ -1,3 +1,4 @@
+//Недоделанный вариант на JS
 // function clickLink() {
 //   var links = document.getElementsByClassName('main-nav__item-menu');
 //
@@ -59,6 +60,8 @@
 // }
 //
 // addContent();
+
+
 
 
 $(document).ready(function () {
