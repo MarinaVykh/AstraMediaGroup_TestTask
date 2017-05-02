@@ -142,7 +142,7 @@
   }
 }
 
-@media (max-width: 1660px) {
+@media (max-width: 1640px) {
   .main-nav__item-name {
     font-size: 18px;
   }
@@ -186,6 +186,10 @@
 
 @media (min-resolution: 144dpi),
 (min-resolution: 1.5dppx) {
+  .main-nav__item-name {
+    font-size: 18px;
+  }
+
   .main-nav__item-menu {
     margin: 0 0 10px 0;
   }
