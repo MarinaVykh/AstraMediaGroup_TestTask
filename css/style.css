@@ -559,7 +559,7 @@ a {
   width: 80%;
   margin: 25px; }
 
-@media (max-width: 1660px) {
+@media (max-width: 1640px) {
   .main-nav__item-name {
     font-size: 18px; }
   .main-nav__item-flipper-back {
@@ -592,6 +592,8 @@ a {
     height: 100px; } }
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .main-nav__item-name {
+    font-size: 18px; }
   .main-nav__item-menu {
     margin: 0 0 10px 0; }
   .main-nav__item-menu a {
