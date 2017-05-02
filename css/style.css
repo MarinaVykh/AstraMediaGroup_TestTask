@@ -593,7 +593,7 @@ a {
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .main-nav__item-name {
-    font-size: 18px; }
+    font-size: 20px; }
   .main-nav__item-menu {
     margin: 0 0 10px 0; }
   .main-nav__item-menu a {
